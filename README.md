@@ -26,4 +26,105 @@ Analyze 20 Apple earnings announcements to examine the relationship between EPS 
 
 ## Business Question
 
-**Do larger positive earnings surprises consistently coincide with stronger short-term stock returns following Apple's quarterly earnings announcements?**
+Do larger positive earnings surprises consistently coincide with stronger short-term stock returns following Apple's quarterly earnings announcements?
+ Data Sources and Data Structure
+
+Data Source
+
+The project uses historical financial data obtained from the Financial Modeling Prep (FMP) API.
+
+Two datasets were extracted for the analysis:
+
+1. Earnings Data
+
+Contains Apple's quarterly earnings announcements, including actual and estimated EPS and revenue figures.
+
+Original source: Financial Modeling Prep Earnings Data
+
+Project dataset: View Earnings Dataset
+
+2. Historical Stock Price Data
+
+Contains Apple's daily historical stock-price information, used to measure price movements following earnings announcements.
+
+Original source: Financial Modeling Prep Historical Price Data
+
+Project dataset: View Historical Stock Price Dataset
+
+Database Structure
+
+The extracted datasets were imported into PostgreSQL and organized into two tables:
+
+Table
+
+Description
+
+earnings
+
+Stores quarterly earnings announcement dates, actual EPS, estimated EPS, actual revenue, and estimated revenue.
+
+daily_stock_prices
+
+Stores daily historical stock-price information, including opening and closing prices and other market data.
+
+The two tables were connected using the stock ticker symbol and relevant dates to compare earnings announcements with subsequent trading activity.
+
+[ADD LINK: Database schema or SQL table creation script, if included in the repository]
+
+6. Methodology and Data Preparation
+
+The analysis followed these main stages:
+
+Data Extraction: Used Python to retrieve earnings announcements and historical stock-price data from the Financial Modeling Prep API.
+
+View Python Data Extraction Script
+
+Data Preparation: Organized the extracted data into structured datasets suitable for analysis and database storage.
+
+Database Storage: Imported the datasets into PostgreSQL, creating separate tables for earnings announcements and historical stock prices.
+
+Data Quality Checks: Examined missing values, duplicate announcement dates, and inconsistencies in financial figures. Identified anomalies were investigated and corrected where necessary.
+
+Earnings Surprise Calculation: Compared actual EPS and revenue against analyst estimates to calculate the percentage surprise for each metric.
+
+Stock Price Performance Analysis: Used SQL queries to examine stock returns over one, three, and five trading sessions following each earnings announcement.
+
+Comparative Analysis: Compared the magnitude of earnings surprises with subsequent stock returns to identify patterns in Apple's market reaction.
+
+7. SQL Analysis
+
+SQL was used to investigate the relationship between Apple's quarterly earnings results and subsequent stock-price performance.
+
+The analysis was conducted in PostgreSQL using queries covering the following areas:
+
+7.1 Data Exploration and Validation
+
+Examined the structure and quality of the datasets, including missing values, duplicate records, and date coverage.
+
+View SQL Queries – Data Exploration and Validation
+
+7.2 Earnings Surprise Analysis
+
+Calculated the percentage differences between actual and estimated EPS and revenue to determine the extent to which Apple exceeded or missed analyst expectations.
+
+View SQL Queries – Earnings Surprise Analysis
+
+7.3 Post-Earnings Stock Performance
+
+Measured Apple's stock-price returns over one, three, and five trading sessions following each earnings announcement.
+
+View SQL Queries – Stock Performance Analysis
+
+7.4 Combined Earnings and Stock Performance Analysis
+
+Combined the earnings and historical stock-price datasets to compare earnings surprises with subsequent market reactions across the 20 announcements.
+
+View Complete SQL Analysis
+
+8. Executive Summary and Key Findings
+
+[ADD EXECUTIVE SUMMARY HERE]
+
+Key Findings
+
+[ADD YOUR VERIFIED KEY FINDINGS HERE]

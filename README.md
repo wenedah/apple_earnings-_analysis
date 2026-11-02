@@ -40,11 +40,11 @@ The project uses historical financial data obtained from
 **1. Earnings Data**
 
 - Source: [FMP Earnings API](YOUR_FMP_SOURCE_LINK)
-- Dataset: [Download Earnings Dataset] [Apple earnings report](Data/appl_earnings_report.csv)
+- Dataset: [Download Apple Earnings Dataset](Data/appl_earnings_report.csv)
 
 **2. Historical Stock Price Data**
 
 - Source: [FMP Historical Price API](YOUR_FMP_SOURCE_LINK)
-- Dataset: [Download Historical Stock Price Dataset](data/daily_stock_prices.csv)
+- Dataset: [Download Historical Stock Price Dataset](Data/appl_historical_prices1.csv)
 
 

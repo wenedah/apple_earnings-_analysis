@@ -47,4 +47,3 @@ The project uses historical financial data obtained from
 - Source: [FMP Historical Price API](YOUR_FMP_SOURCE_LINK)
 - Dataset: [Download Historical Stock Price Dataset](Data/appl_historical_prices1.csv)
 
-

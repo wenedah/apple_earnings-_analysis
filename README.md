@@ -30,3 +30,21 @@ Analyze 20 Apple earnings announcements to examine the relationship between EPS 
 Do larger positive earnings surprises consistently coincide with stronger short-term stock returns following Apple's quarterly earnings announcements?
 
 
+## Data Sources and Data Structure
+
+### Data Sources
+
+The project uses historical financial data obtained from
+[Financial Modeling Prep (FMP)](https://site.financialmodelingprep.com/).
+
+**1. Earnings Data**
+
+- Source: [FMP Earnings API](YOUR_FMP_SOURCE_LINK)
+- Dataset: [Download Earnings Dataset](data/earnings.csv)
+
+**2. Historical Stock Price Data**
+
+- Source: [FMP Historical Price API](YOUR_FMP_SOURCE_LINK)
+- Dataset: [Download Historical Stock Price Dataset](data/daily_stock_prices.csv)
+
+

@@ -47,3 +47,46 @@ The project uses historical financial data obtained from
 - Source: [FMP Historical Price API](YOUR_FMP_SOURCE_LINK)
 - Dataset: [Download Historical Stock Price Dataset](Data/appl_historical_prices.csv)
 
+
+## Analytical Approach
+
+The analysis was carried out using Python for data extraction and PostgreSQL for data validation, transformation, and analysis.
+
+| Stage | Description | Supporting Files |
+|---|---|---|
+| Data Extraction | Retrieved earnings announcements and historical stock prices from the Financial Modeling Prep API. | [Python Extraction Script](ADD_PYTHON_SCRIPT_LINK) |
+| Data Preparation and Validation | Prepared the datasets, checked for missing values, duplicates and inconsistencies, and investigated identified anomalies. | [Data Preparation / Validation Queries](ADD_SQL_SCRIPT_LINK) |
+| Earnings Surprise Analysis | Calculated EPS and revenue surprises by comparing actual results against analyst estimates. | [Earnings Surprise SQL Queries](ADD_SQL_SCRIPT_LINK) |
+| Stock Performance Analysis | Calculated Apple's stock returns over one, three, and five trading sessions following earnings announcements. | [Stock Performance SQL Queries](ADD_SQL_SCRIPT_LINK) |
+| Combined Analysis | Joined the earnings and historical price datasets to examine the relationship between earnings surprises and subsequent stock returns across 20 announcements. | [Complete SQL Analysis](ADD_COMPLETE_SQL_SCRIPT_LINK) |
+
+### Earnings Surprise Calculation
+
+The percentage surprise for each financial metric was calculated as:
+
+**EPS Surprise (%)**
+
+\[
+\frac{\text{Actual EPS}-\text{Estimated EPS}}{|\text{Estimated EPS}|}\times100
+\]
+
+**Revenue Surprise (%)**
+
+\[
+\frac{\text{Actual Revenue}-\text{Estimated Revenue}}{|\text{Estimated Revenue}|}\times100
+\]
+
+Positive values indicate results above estimates, while negative values indicate results below estimates.
+
+### Stock Return Calculation
+
+Post-announcement stock performance was measured using:
+
+\[
+\text{Return (\%)}=
+\frac{\text{Ending Price}-\text{Starting Price}}
+{\text{Starting Price}}\times100
+\]
+
+Returns were examined over one, three, and five trading sessions following each announcement. See the SQL scripts for the precise price references and trading-session logic.
+

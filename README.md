@@ -7,19 +7,15 @@ This project analyzes 4.7 (approx 5 years) of Apple Inc. (AAPL) quarterly earnin
 Developed as a proof of concept for a financial new publication, seeking to produce data driven articles on market reaction to company news,  whether Apple's earnings results relative to analyst expectations consistently correspond with stronger or weaker stock returns after an announcement.
 
 
-## Project Background
+## Business Context and Problem
 
-Quarterly earnings announcements provide investors and analysts with important information about a company's financial performance. These reports include metrics such as revenue and earnings per share (EPS), which are commonly compared with analyst's estimates to determine whether a company performed better or worse than expected.
+A financial news publication wants to create a new content section featuring data driven articles on market reactions to company news. This project serves as a proof of concept, demonstrating how the relationship between company earnings announcements and stock price performance can be investigated using historical financial data.
 
-However, beating earnings expectations does not necessarily mean a company's stock price will increase. Stock-price movements may also reflect investor expectations, future growth prospects, company guidance, and broader market conditions.
+Quarterly earnings announcements provide investors and financial analysts with important information about a company’s financial performance. Two commonly evaluated metrics are earnings per share (EPS) and revenue, which are compared against analysts estimates to determine whether a company has exceeded or fallen short of expectations.
 
-For a financial news publication, understanding this relationship can support more evidence based reporting on how financial results relate to market reactions. This project uses Apple's earnings announcements and historical stock price data to investigate this relationship.
+However, reporting better than expected financial results does not necessarily explain how the stock market will react. A company’s share price may rise or fall following an earnings announcement, even when its reported results exceed expectations.
 
-## Business Problem
-
-A financial news publication wants to produce evidence based articles explaining how Apple's stock price behaves following quarterly earnings announcements. Reporting whether Apple beats or misses analyst expectations alone does not explain the market's reaction to the news.
-
-The publication therefore needs an analytical approach to compare earnings surprises with subsequent stock returns and determine whether stronger than expected financial results generally coincide with stronger short term stock performance.
+The publication therefore needs an evidence based approach to compare earnings surprises with subsequent stock returns and determine whether stronger than expected financial results consistently coincide with stronger short term stock performance.
 
 ## Project Objective
 

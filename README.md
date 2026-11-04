@@ -27,7 +27,7 @@ Analyze 20 Apple earnings announcements to examine the relationship between EPS 
 
 ## Business Question
 
-Do larger positive earnings surprises consistently coincide with stronger short-term stock returns following Apple's quarterly earnings announcements?
+Do larger positive earnings surprises consistently coincide/ lead to stronger short-term stock returns following Apple's quarterly earnings announcements?
 
 
 ## Data Sources and Data Structure

@@ -54,7 +54,7 @@ The analysis was carried out using Python for data extraction and PostgreSQL for
 
 | Stage | Description | Supporting Files |
 |---|---|---|
-| Data Extraction | Retrieved earnings announcements and historical stock prices from the Financial Modeling Prep API. | [Python Extraction Script](ADD_PYTHON_SCRIPT_LINK) |
+| Data Extraction | Retrieved earnings announcements and historical stock prices from the Financial Modeling Prep API. | [Python Extraction Script](scripts/Python_Extraction_Script.py) |
 | Data Preparation and Validation | Prepared the datasets, checked for missing values, duplicates and inconsistencies, and investigated identified anomalies. | [Data Preparation / Validation Queries](ADD_SQL_SCRIPT_LINK) |
 | Earnings Surprise Analysis | Calculated EPS and revenue surprises by comparing actual results against analyst estimates. | [Earnings Surprise SQL Queries](ADD_SQL_SCRIPT_LINK) |
 | Stock Performance Analysis | Calculated Apple's stock returns over one, three, and five trading sessions following earnings announcements. | [Stock Performance SQL Queries](ADD_SQL_SCRIPT_LINK) |

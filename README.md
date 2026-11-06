@@ -86,3 +86,8 @@ Post-announcement stock performance was measured using:
 
 Returns were examined over one, three, and five trading sessions following each announcement. See the SQL scripts for the precise price references and trading-session logic.
 
+## Executive Summary and Key Findings
+[ADD EXECUTIVE SUMMARY HERE]
+### Key Findings
+[ADD YOUR VERIFIED KEY FINDINGS HERE]
+

@@ -6,6 +6,12 @@ This project analyzes 4.7 (approx 5 years) of Apple Inc. (AAPL) quarterly earnin
 
 Developed as a proof of concept for a financial new publication, seeking to produce data driven articles on market reaction to company news,  whether Apple's earnings results relative to analyst expectations consistently correspond with stronger or weaker stock returns after an announcement.
 
+An interactive PowerBI dashboard can be downloaded [here].
+
+The SQL queries utilized to inspect and perform quality checks can be found [here].
+
+Targeted SQL queries regarding various business questions can be found [here].
+
 
 ## Business Context and Problem
 
